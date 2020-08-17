@@ -40,7 +40,7 @@ nav a {
   position: relative;
 }
 
-.tooltip {
+nav a .tooltip {
   font-size: 14px;
   width: 100px;
   text-align: left;
@@ -57,7 +57,75 @@ nav a:hover {
 
 nav a:hover .tooltip {
   visibility: visible;
+} 
+
+
+#skills li {
+  position: relative;
 }
+
+#skills li:hover .tooltip {
+  visibility: visible;
+}
+
+#skills .tooltip {
+  font-size: 14px;
+  width: 100px;
+  text-align: center;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  visibility: hidden;
+}
+
+.react:hover,
+.google-cloud:hover,
+.docker:hover {
+  color: #5ed4f4;
+}
+
+.bootstrap:hover {
+  color: #5c3f83;
+}
+
+.javascript:hover,
+.python:hover {
+  color: #f0d91d;
+}
+
+.html:hover,
+.rabbitmq:hover {
+  color: #ea6227;
+}
+
+.css:hover,
+.neo4j:hover {
+  color: #59a5e8;
+}
+
+.nodejs:hover {
+  color: #90c443;
+}
+
+.nginx:hover,
+.mongodb:hover  {
+  color: #1a9036;
+}
+
+.git:hover,
+.aws:hover {
+  color: #f04f30;
+}
+
+.digital-ocean:hover {
+  color: #1380ff;
+}
+
+.rabbitmq {
+  font-size: 55px !important;
+}
+
 
 section {
   min-height: 100vh;
@@ -108,6 +176,22 @@ h1 {
   width: 50%;
   min-width: 300px;
   margin: 40px auto;
+}
+
+#skills ul {
+  list-style: none;
+  text-align: left;
+  align-items: flex-start;
+  padding: 0;
+}
+
+#skills li {
+  font-size: 70px;
+  margin: 0 10px;
+}
+
+#skills h3 {
+  text-align: left;
 }
 
 @media only screen and (max-width: 480px) {
