@@ -6,6 +6,7 @@ import {
     IoIosRocket,
     IoIosChatbubbles
 } from 'react-icons/io'
+import { Link } from 'react-scroll'
 
 const sections = [
     { 'label': 'Home', to: '/home' }, 
@@ -19,11 +20,11 @@ const sections = [
 function Sidebar () {
     return (
         <nav className='gradient-background'>
-            <a> <IoIosHome /> </a>
-            <a> <IoIosPerson /> </a>
-            <a> <IoIosApps /> </a>
-            <a> <IoIosRocket /> </a>
-            <a> <IoIosChatbubbles /> </a>
+            <Link to='home' smooth={true} spy={true} duration={500} > <IoIosHome /> </Link>
+            <Link to='about' smooth={true} spy={true} duration={500} > <IoIosPerson /> </Link>
+            <Link to='skills' smooth={true} spy={true} duration={500} > <IoIosApps /> </Link>
+            <Link to='projects' smooth={true} spy={true} duration={500} > <IoIosRocket /> </Link>
+            <Link to='contact' smooth={true} spy={true} duration={500} > <IoIosChatbubbles /> </Link>
         </nav>
     )
 }

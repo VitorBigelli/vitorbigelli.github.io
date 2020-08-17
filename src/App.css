@@ -1,6 +1,9 @@
 .App {
   text-align: center;
- 
+} 
+
+body {
+  overflow: hidden;
 }
 
 :root {
@@ -13,6 +16,9 @@
 }
 
 nav {
+  position: fixed;
+  left: 0;
+  top: 0;
   width: 50px;
   display: flex;
   flex-direction: column;
@@ -20,4 +26,18 @@ nav {
   font-size: 30px;
   color: white;
   height: 100vh;
+  z-index: 10;
+}
+
+section {
+  height: 100vh;
+}
+
+.scroll {
+  width: 50vw;
+  float: right;
+  height: 100vh;
+  z-index: -1;
+  background: red;
+  overflow-y: scroll;
 }
