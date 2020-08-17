@@ -20,11 +20,11 @@ const sections = [
 function Sidebar () {
     return (
         <nav className='gradient-background'>
-            <Link to='home' smooth={true} spy={true} duration={500} > <IoIosHome /> </Link>
-            <Link to='about' smooth={true} spy={true} duration={500} > <IoIosPerson /> </Link>
-            <Link to='skills' smooth={true} spy={true} duration={500} > <IoIosApps /> </Link>
-            <Link to='projects' smooth={true} spy={true} duration={500} > <IoIosRocket /> </Link>
-            <Link to='contact' smooth={true} spy={true} duration={500} > <IoIosChatbubbles /> </Link>
+            <Link to='home' smooth={true} spy={true} duration={500} > <IoIosHome /> <span className='tooltip'> Home </span> </Link>
+            <Link to='about' smooth={true} spy={true} duration={500} > <IoIosPerson />  <span className='tooltip'> About me </span>  </Link>
+            <Link to='skills' smooth={true} spy={true} duration={500} > <IoIosApps />  <span className='tooltip'> Skills </span>  </Link>
+            <Link to='projects' smooth={true} spy={true} duration={500} > <IoIosRocket />  <span className='tooltip'> Projects </span>  </Link>
+            <Link to='contact' smooth={true} spy={true} duration={500} > <IoIosChatbubbles />  <span className='tooltip'> Contact </span>  </Link>
         </nav>
     )
 }
