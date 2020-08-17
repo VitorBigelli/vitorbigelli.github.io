@@ -51,7 +51,7 @@ const skills = {
 function Skills () {
     return (
         <section id='skills' >
-            <h1> Skills </h1> 
+            <h1> My Skills </h1> 
             <h3> Front-end </h3>  
             <ul className='flex-row'> 
                 {
