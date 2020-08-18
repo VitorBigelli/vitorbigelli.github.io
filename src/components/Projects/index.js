@@ -29,23 +29,21 @@ function Projects () {
     return (
         <section id='projects' >
             <h1> Projects </h1>
-            <Carousel responsive={responsive}>
-                <div className='project-container'>
-                    <h2> DeepWild - Species Classifier</h2>
-                    <p>Desenvolvimento Full-Stack do Web App DeepWild, uma ferramenta que auxilia na conservação e monitoramento de espécies selvagens. Ela utiliza uma inteligência artificial que identifica e classifica os animais por meio de fotos e vídeos.</p>
-                    <img src={project_2} /> 
-                </div>
-                <div>
-                    <h2> Raras - Rare Diseases Q&A </h2>
-                    <p>Desenvolvimento Full-Stack do Web App do maior grafo relacionado a doenças raras. Raras.org é uma iniciativa de ciência aberta para trazer avanços na inteligência artificial e encontrar respostas para doenças raras.</p>
-                    <img src={project_1} />
-                </div>
-                <div>
-                    <h2> SanarFlix - Caption Editor</h2>
-                    <p> Desenvolvimento Full-Stack do Web App de edição de legendas da plataforma de stream de medicina SanarFlix.</p>
-                    <img src={project_3} />
-                </div>
-            </Carousel>
+            <div className='project-container'>
+                <h2> DeepWild - Species Classifier</h2>
+                <img src={project_2} /> 
+                <p>Desenvolvimento Full-Stack do Web App DeepWild, uma ferramenta que auxilia na conservação e monitoramento de espécies selvagens. Ela utiliza uma inteligência artificial que identifica e classifica os animais por meio de fotos e vídeos.</p>
+            </div>
+            <div className='project-container'>
+                <h2> Raras - Rare Diseases Q&A </h2>
+                <img src={project_1} />
+                <p>Desenvolvimento Full-Stack do Web App do maior grafo relacionado a doenças raras. Raras.org é uma iniciativa de ciência aberta para trazer avanços na inteligência artificial e encontrar respostas para doenças raras.</p>
+            </div>
+            <div className='project-container'>
+                <h2> SanarFlix - Caption Editor</h2>
+                <img src={project_3} />
+                <p> Desenvolvimento Full-Stack do Web App de edição de legendas da plataforma de stream de medicina SanarFlix.</p>
+            </div>
         </section>
     )
 }

@@ -9,7 +9,7 @@ function About () {
             <Fade left  duration={1000} delay={500} distance="30px">
             <h1> About Me </h1>
             </Fade>
-            <div className='flex-row'>
+            <div className='flex-row about-inner'>
                 <Flip left duration={500} delay={500} >
                     <img src={profile}  width={300} />
                 </Flip>

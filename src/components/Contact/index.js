@@ -25,20 +25,18 @@ export default class Contact extends React.Component {
         
         return (
             <section id='contact' > 
-                <div className='flex-row'>
-                    <h1> Contact </h1>
-                    <div className='contact-list'>
-                    { 
-                        contact_list.map( (c, i) => {
-                            return (
-                                <a href={c.url} target='_blank' key={i}> 
-                                    { c.icon() }
-                                </a>
-                            )
-                        })
-                    }
-                    </div>
-                </div> 
+                <h1> Contact </h1>
+                <div className='contact-list'>
+                { 
+                    contact_list.map( (c, i) => {
+                        return (
+                            <a href={c.url} target='_blank' key={i}> 
+                                { c.icon() }
+                            </a>
+                        )
+                    })
+                }
+                </div>
                 <form className="mailing">
                     <input type='text' value={name} required placeholder='Nome' onChange={ (e) => this.setState({ name: e.target.value })} />
                     <input type='text' value={email} required placeholder='E-mail' onChange={ (e) => this.setState({ email: e.target.value })}  />

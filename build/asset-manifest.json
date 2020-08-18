@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/vitorbigelli.github.io/static/css/main.c1c154fa.chunk.css",
-    "main.js": "/vitorbigelli.github.io/static/js/main.7579048b.chunk.js",
-    "main.js.map": "/vitorbigelli.github.io/static/js/main.7579048b.chunk.js.map",
+    "main.css": "/vitorbigelli.github.io/static/css/main.560e9e9d.chunk.css",
+    "main.js": "/vitorbigelli.github.io/static/js/main.2178d3f5.chunk.js",
+    "main.js.map": "/vitorbigelli.github.io/static/js/main.2178d3f5.chunk.js.map",
     "runtime-main.js": "/vitorbigelli.github.io/static/js/runtime-main.20333f23.js",
     "runtime-main.js.map": "/vitorbigelli.github.io/static/js/runtime-main.20333f23.js.map",
     "static/css/2.178dc2c7.chunk.css": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css",
     "static/js/2.ed8231b3.chunk.js": "/vitorbigelli.github.io/static/js/2.ed8231b3.chunk.js",
     "static/js/2.ed8231b3.chunk.js.map": "/vitorbigelli.github.io/static/js/2.ed8231b3.chunk.js.map",
     "index.html": "/vitorbigelli.github.io/index.html",
-    "precache-manifest.bb1affa3db4fbc5c4ca1d3a92516e380.js": "/vitorbigelli.github.io/precache-manifest.bb1affa3db4fbc5c4ca1d3a92516e380.js",
+    "precache-manifest.af72a2f939dc0b618ecfc48d45c98505.js": "/vitorbigelli.github.io/precache-manifest.af72a2f939dc0b618ecfc48d45c98505.js",
     "service-worker.js": "/vitorbigelli.github.io/service-worker.js",
     "static/css/2.178dc2c7.chunk.css.map": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css.map",
-    "static/css/main.c1c154fa.chunk.css.map": "/vitorbigelli.github.io/static/css/main.c1c154fa.chunk.css.map",
+    "static/css/main.560e9e9d.chunk.css.map": "/vitorbigelli.github.io/static/css/main.560e9e9d.chunk.css.map",
     "static/js/2.ed8231b3.chunk.js.LICENSE.txt": "/vitorbigelli.github.io/static/js/2.ed8231b3.chunk.js.LICENSE.txt",
     "static/media/hero.png": "/vitorbigelli.github.io/static/media/hero.50c57b22.png",
     "static/media/profile.jpg": "/vitorbigelli.github.io/static/media/profile.8913b86a.jpg",
     "static/media/project_1.png": "/vitorbigelli.github.io/static/media/project_1.77fd6600.png",
     "static/media/project_2.png": "/vitorbigelli.github.io/static/media/project_2.8ad7a0db.png",
     "static/media/project_3.png": "/vitorbigelli.github.io/static/media/project_3.d9487133.png",
-    "static/media/styles.css": "/vitorbigelli.github.io/static/media/revicons.2feb69cc.eot"
+    "static/media/styles.css": "/vitorbigelli.github.io/static/media/revicons.2feb69cc.eot",
+    "static/media/sorry.png": "/vitorbigelli.github.io/static/media/sorry.25c7b167.png",
+    "static/media/thanks.png": "/vitorbigelli.github.io/static/media/thanks.4561369d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.20333f23.js",
     "static/css/2.178dc2c7.chunk.css",
     "static/js/2.ed8231b3.chunk.js",
-    "static/css/main.c1c154fa.chunk.css",
-    "static/js/main.7579048b.chunk.js"
+    "static/css/main.560e9e9d.chunk.css",
+    "static/js/main.2178d3f5.chunk.js"
   ]
 }
