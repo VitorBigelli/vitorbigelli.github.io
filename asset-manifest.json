@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vitorbigelli.github.io/static/css/main.6d226b30.chunk.css",
-    "main.js": "/vitorbigelli.github.io/static/js/main.18fab384.chunk.js",
-    "main.js.map": "/vitorbigelli.github.io/static/js/main.18fab384.chunk.js.map",
+    "main.css": "/vitorbigelli.github.io/static/css/main.b6a15c06.chunk.css",
+    "main.js": "/vitorbigelli.github.io/static/js/main.ed96d0a8.chunk.js",
+    "main.js.map": "/vitorbigelli.github.io/static/js/main.ed96d0a8.chunk.js.map",
     "runtime-main.js": "/vitorbigelli.github.io/static/js/runtime-main.20333f23.js",
     "runtime-main.js.map": "/vitorbigelli.github.io/static/js/runtime-main.20333f23.js.map",
     "static/css/2.178dc2c7.chunk.css": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css",
     "static/js/2.2df4d30b.chunk.js": "/vitorbigelli.github.io/static/js/2.2df4d30b.chunk.js",
     "static/js/2.2df4d30b.chunk.js.map": "/vitorbigelli.github.io/static/js/2.2df4d30b.chunk.js.map",
     "index.html": "/vitorbigelli.github.io/index.html",
-    "precache-manifest.394fe6b217b91a7b1d552d610b928a3b.js": "/vitorbigelli.github.io/precache-manifest.394fe6b217b91a7b1d552d610b928a3b.js",
+    "precache-manifest.27e1a1c1b5b8fff35582d6c90d697daa.js": "/vitorbigelli.github.io/precache-manifest.27e1a1c1b5b8fff35582d6c90d697daa.js",
     "service-worker.js": "/vitorbigelli.github.io/service-worker.js",
     "static/css/2.178dc2c7.chunk.css.map": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css.map",
-    "static/css/main.6d226b30.chunk.css.map": "/vitorbigelli.github.io/static/css/main.6d226b30.chunk.css.map",
+    "static/css/main.b6a15c06.chunk.css.map": "/vitorbigelli.github.io/static/css/main.b6a15c06.chunk.css.map",
     "static/js/2.2df4d30b.chunk.js.LICENSE.txt": "/vitorbigelli.github.io/static/js/2.2df4d30b.chunk.js.LICENSE.txt",
     "static/media/hero.png": "/vitorbigelli.github.io/static/media/hero.794dc391.png",
     "static/media/profile.jpg": "/vitorbigelli.github.io/static/media/profile.8913b86a.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.20333f23.js",
     "static/css/2.178dc2c7.chunk.css",
     "static/js/2.2df4d30b.chunk.js",
-    "static/css/main.6d226b30.chunk.css",
-    "static/js/main.18fab384.chunk.js"
+    "static/css/main.b6a15c06.chunk.css",
+    "static/js/main.ed96d0a8.chunk.js"
   ]
 }
