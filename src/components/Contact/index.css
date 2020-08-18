@@ -54,3 +54,19 @@
 .mailing input[type='button']:hover {
     background: linear-gradient(var(--secondary-color), var(--primary-color))
 }
+
+.message {
+    background: red;
+    float: left;
+    width: 400px;
+    margin: 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.message img {
+    width: 100px;
+}

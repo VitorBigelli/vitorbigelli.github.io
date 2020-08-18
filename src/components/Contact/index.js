@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaLinkedin, FaTwitter, FaGithub, FaInstagram } from 'react-icons/fa'
 import './index.css'
+import sorry from '../../assets/sorry.png'
+import thanks from '../../assets/thanks.png'
 
 const contact_list = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/vitor-bigelli-559380150/', icon: () => <FaLinkedin /> }, 
@@ -13,13 +15,13 @@ export default class Contact extends React.Component {
     
     constructor(props) {
         super(props);
-        this.state = { feedback: '', name: '', email: '' };
+        this.state = { feedback: '', name: '', email: '', message: '', sent: false, error: false };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
       }
     
       render() {   
-        const { email, name } = this.state    
+        const { email, name, error, sent, message } = this.state    
         
         return (
             <section id='contact' > 
@@ -36,21 +38,33 @@ export default class Contact extends React.Component {
                         })
                     }
                     </div>
-                </div>
+                </div> 
                 <form className="mailing">
-                <input type='text' value={name} required placeholder='Nome' onChange={ (e) => this.setState({ name: e.target.value })} />
-                <input type='text' value={email} required placeholder='E-mail' onChange={ (e) => this.setState({ email: e.target.value })}  />
-                <textarea
-                    id="test-mailing"
-                    name="test-mailing"
-                    onChange={this.handleChange}
-                    placeholder="Mensagem"
-                    required
-                    value={this.state.feedback}
-                    style={{width: '100%', height: '150px'}}
-                />
-                <input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />
-            </form>
+                    <input type='text' value={name} required placeholder='Nome' onChange={ (e) => this.setState({ name: e.target.value })} />
+                    <input type='text' value={email} required placeholder='E-mail' onChange={ (e) => this.setState({ email: e.target.value })}  />
+                    <textarea
+                        id="test-mailing"
+                        name="test-mailing"
+                        onChange={this.handleChange}
+                        placeholder="Mensagem"
+                        required
+                        value={this.state.feedback}
+                        style={{width: '100%', height: '150px'}}
+                    />
+                    <div className='flex-row reverse'>
+                        <input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />
+                        { error && 
+                            <div className='message flex-row'>
+                                <span> { message }</span>
+                            </div> 
+                        }
+                        { sent && 
+                            <div className='message flex-row'>
+                                <span> { message }</span>
+                            </div> 
+                        }
+                    </div>
+                </form>
             </section>
         )
     }
@@ -60,9 +74,17 @@ export default class Contact extends React.Component {
     }
     
     handleSubmit (event) {
-        const templateId = 'template_XSleonHD';
+        const templateId = 'template_XSleonHD'; 
+
+        if (!this.state.name && !this.state.email && !this.state.feedback) {
+            this.setState({
+                message: 'All fields are required',
+                error: true
+            })
+        } else {
+            this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, reply_to: this.state.email})
+        }
     
-        this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, reply_to: this.state.email})
     }
     
     sendFeedback (templateId, variables) {
@@ -70,10 +92,10 @@ export default class Contact extends React.Component {
         'bigellivitor-gmail', templateId,
         variables
         ).then(res => {
-        console.log('Email successfully sent!')
+            this.setState({ message: 'Email successfully sent!', sent: true })
         })
         // Handle errors here however you like, or use a React error boundary
-        .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+        .catch(err => this.setState({ message: 'Sorry, something went wrong. Please, try again later.', error: true, }))
     }
 
 }

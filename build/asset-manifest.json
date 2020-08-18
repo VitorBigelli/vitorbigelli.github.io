@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/vitorbigelli.github.io/static/css/main.f280ab6b.chunk.css",
-    "main.js": "/vitorbigelli.github.io/static/js/main.66fc31e8.chunk.js",
-    "main.js.map": "/vitorbigelli.github.io/static/js/main.66fc31e8.chunk.js.map",
+    "main.css": "/vitorbigelli.github.io/static/css/main.c1c154fa.chunk.css",
+    "main.js": "/vitorbigelli.github.io/static/js/main.7579048b.chunk.js",
+    "main.js.map": "/vitorbigelli.github.io/static/js/main.7579048b.chunk.js.map",
     "runtime-main.js": "/vitorbigelli.github.io/static/js/runtime-main.20333f23.js",
     "runtime-main.js.map": "/vitorbigelli.github.io/static/js/runtime-main.20333f23.js.map",
     "static/css/2.178dc2c7.chunk.css": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css",
-    "static/js/2.e8cf2b36.chunk.js": "/vitorbigelli.github.io/static/js/2.e8cf2b36.chunk.js",
-    "static/js/2.e8cf2b36.chunk.js.map": "/vitorbigelli.github.io/static/js/2.e8cf2b36.chunk.js.map",
+    "static/js/2.ed8231b3.chunk.js": "/vitorbigelli.github.io/static/js/2.ed8231b3.chunk.js",
+    "static/js/2.ed8231b3.chunk.js.map": "/vitorbigelli.github.io/static/js/2.ed8231b3.chunk.js.map",
     "index.html": "/vitorbigelli.github.io/index.html",
-    "precache-manifest.85cbd840046792ca1b16731d3c30f971.js": "/vitorbigelli.github.io/precache-manifest.85cbd840046792ca1b16731d3c30f971.js",
+    "precache-manifest.bb1affa3db4fbc5c4ca1d3a92516e380.js": "/vitorbigelli.github.io/precache-manifest.bb1affa3db4fbc5c4ca1d3a92516e380.js",
     "service-worker.js": "/vitorbigelli.github.io/service-worker.js",
     "static/css/2.178dc2c7.chunk.css.map": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css.map",
-    "static/css/main.f280ab6b.chunk.css.map": "/vitorbigelli.github.io/static/css/main.f280ab6b.chunk.css.map",
-    "static/js/2.e8cf2b36.chunk.js.LICENSE.txt": "/vitorbigelli.github.io/static/js/2.e8cf2b36.chunk.js.LICENSE.txt",
+    "static/css/main.c1c154fa.chunk.css.map": "/vitorbigelli.github.io/static/css/main.c1c154fa.chunk.css.map",
+    "static/js/2.ed8231b3.chunk.js.LICENSE.txt": "/vitorbigelli.github.io/static/js/2.ed8231b3.chunk.js.LICENSE.txt",
     "static/media/hero.png": "/vitorbigelli.github.io/static/media/hero.50c57b22.png",
     "static/media/profile.jpg": "/vitorbigelli.github.io/static/media/profile.8913b86a.jpg",
     "static/media/project_1.png": "/vitorbigelli.github.io/static/media/project_1.77fd6600.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.20333f23.js",
     "static/css/2.178dc2c7.chunk.css",
-    "static/js/2.e8cf2b36.chunk.js",
-    "static/css/main.f280ab6b.chunk.css",
-    "static/js/main.66fc31e8.chunk.js"
+    "static/js/2.ed8231b3.chunk.js",
+    "static/css/main.c1c154fa.chunk.css",
+    "static/js/main.7579048b.chunk.js"
   ]
 }
