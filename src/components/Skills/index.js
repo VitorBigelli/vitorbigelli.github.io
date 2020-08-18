@@ -41,10 +41,10 @@ const skills = {
     devops: [
         { name: 'Git', className: 'git', icon: () => <DiGit /> }, 
         { name: 'NGinx', className: 'nginx', icon: () => <DiNginx /> }, 
+        { name: 'Docker', className: 'docker', icon: () => <DiDocker /> }, 
         { name: 'Google Cloud', className: 'google-cloud', icon: () => <DiGoogleCloudPlatform /> }, 
         { name: 'Digital Ocean', className: 'digital-ocean', icon: () => <DiDigitalOcean /> }, 
         { name: 'AWS', className: 'aws', icon: () => <FaAws /> }, 
-        { name: 'Docker', className: 'docker', icon: () => <DiDocker /> }, 
     ]
 }
 
