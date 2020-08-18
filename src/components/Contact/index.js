@@ -1,8 +1,6 @@
 import React from 'react'
 import { FaLinkedin, FaTwitter, FaGithub, FaInstagram } from 'react-icons/fa'
 import './index.css'
-import sorry from '../../assets/sorry.png'
-import thanks from '../../assets/thanks.png'
 
 const contact_list = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/vitor-bigelli-559380150/', icon: () => <FaLinkedin /> }, 
@@ -30,7 +28,7 @@ export default class Contact extends React.Component {
                 { 
                     contact_list.map( (c, i) => {
                         return (
-                            <a href={c.url} target='_blank' key={i}> 
+                            <a href={c.url} target='_blank' key={i} rel="noopener noreferrer"> 
                                 { c.icon() }
                             </a>
                         )

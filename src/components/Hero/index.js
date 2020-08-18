@@ -12,7 +12,7 @@ function Hero () {
                     <br />
                     I'm a Full Stack Web Developer
                 </h1> 
-                <img src={hero} />
+                <img src={hero} alt='Vitor Bigelli | vitorbigelli | Bitmoji'/>
             </Fade>                        
         </section>
     )

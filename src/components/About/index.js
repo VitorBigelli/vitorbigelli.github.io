@@ -11,7 +11,7 @@ function About () {
             </Fade>
             <div className='flex-row about-inner'>
                 <Flip left duration={500} delay={500} >
-                    <img src={profile}  width={300} />
+                    <img src={profile} alt='Vitor Bigelli - vitorbigelli - Profile'  width={300} />
                 </Flip>
                 <Fade bottom>     
                     <p className='about-me'>

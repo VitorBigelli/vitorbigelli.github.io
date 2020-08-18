@@ -17,7 +17,7 @@ import {
 import {
     FaAws
 } from 'react-icons/fa'
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import neo4jIcon from '@iconify/icons-simple-icons/neo4j';
 import rabbitmq from '@iconify/icons-simple-icons/rabbitmq';
 
