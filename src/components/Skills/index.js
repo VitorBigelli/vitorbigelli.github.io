@@ -53,7 +53,7 @@ function Skills () {
         <section id='skills' >
             <h1> My Skills </h1> 
             <h3> Front-end </h3>  
-            <ul className='flex-row'> 
+            <ul className='flex-row centralize'> 
                 {
                     skills.front.map( (s, i) => {
                         return (
@@ -67,7 +67,7 @@ function Skills () {
             </ul>
 
             <h3> Back-end </h3>
-            <ul className='flex-row'> 
+            <ul className='flex-row centralize'> 
                 {
                     skills.back.map( (s, i) => {
                         return (
@@ -82,7 +82,7 @@ function Skills () {
             </ul>
             
             <h3> Databases </h3>
-            <ul className='flex-row'>
+            <ul className='flex-row  centralize'>
                 
                 {
                     skills.databases.map( (s, i) => {
@@ -97,7 +97,7 @@ function Skills () {
             </ul>
 
             <h3> DevOps, Deployment & Cloud </h3>     
-            <ul className='flex-row'> 
+            <ul className='flex-row centralize'> 
                 
                 {
                     skills.devops.map( (s, i) => {

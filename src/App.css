@@ -154,10 +154,10 @@ h1 {
 }
 
 .flex-row {
+  width: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .project-container {
@@ -204,8 +204,8 @@ h1 {
 
 #skills ul {
   list-style: none;
-  text-align: left;
-  align-items: flex-start;
+  text-align: center;
+  align-items: center;
   padding: 0;
 }
 
@@ -216,7 +216,7 @@ h1 {
 }
 
 #skills h3 {
-  text-align: left;
+  text-align: center;
 }
 
 #home {
@@ -225,6 +225,12 @@ h1 {
 
 #home h1 {
   text-shadow: #333 3px 3px 3px;
+  text-align: left;
+}
+
+.centralize {
+  justify-content: center;
+  align-items: center;
 }
 
 .destak-text {
@@ -235,10 +241,8 @@ h1 {
 }
 
 #home img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 50%;
+  width: 300px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -248,7 +252,7 @@ h1 {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 35px;
     z-index: 2;
   } 
 
@@ -257,6 +261,10 @@ h1 {
     width: 100vw;
     height: 50px;
     bottom: 0;
+  }
+
+  .flex-row {
+    justify-content: center;
   }
 
   nav a {

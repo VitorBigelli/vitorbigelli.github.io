@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1dc2a3c0b781336901fd967b6fa86416",
+    "revision": "536c79df15af2354b47b1087f4ac3253",
     "url": "/vitorbigelli.github.io/index.html"
   },
   {
-    "revision": "6513411fe8fc4553666d",
+    "revision": "1fddd3514c71fab85fc7",
     "url": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css"
   },
   {
-    "revision": "28ea34276073efb16319",
-    "url": "/vitorbigelli.github.io/static/css/main.39fbe8c9.chunk.css"
+    "revision": "ee414a327fe6696fde71",
+    "url": "/vitorbigelli.github.io/static/css/main.d8be6f79.chunk.css"
   },
   {
-    "revision": "6513411fe8fc4553666d",
-    "url": "/vitorbigelli.github.io/static/js/2.fedae7c3.chunk.js"
+    "revision": "1fddd3514c71fab85fc7",
+    "url": "/vitorbigelli.github.io/static/js/2.2df4d30b.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/vitorbigelli.github.io/static/js/2.fedae7c3.chunk.js.LICENSE.txt"
+    "url": "/vitorbigelli.github.io/static/js/2.2df4d30b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28ea34276073efb16319",
-    "url": "/vitorbigelli.github.io/static/js/main.b45697e4.chunk.js"
+    "revision": "ee414a327fe6696fde71",
+    "url": "/vitorbigelli.github.io/static/js/main.794a2b5d.chunk.js"
   },
   {
     "revision": "649add106404055fce40",
@@ -58,13 +58,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2feb69ccb596730c72920c6ba3e37ef8",
     "url": "/vitorbigelli.github.io/static/media/revicons.2feb69cc.eot"
-  },
-  {
-    "revision": "25c7b1677c0f2c6cfb357c8fd047b789",
-    "url": "/vitorbigelli.github.io/static/media/sorry.25c7b167.png"
-  },
-  {
-    "revision": "4561369dcefba71c071d19573e790fb0",
-    "url": "/vitorbigelli.github.io/static/media/thanks.4561369d.png"
   }
 ]);
