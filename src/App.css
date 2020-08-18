@@ -153,12 +153,6 @@ h1 {
   color: white;
 }
 
-.destak-text {
-  background: linear-gradient(var(--primary-color), var(--secondary-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -225,12 +219,26 @@ h1 {
   text-align: left;
 }
 
+#home {
+  height: 100vh;
+}
+
+#home h1 {
+  text-shadow: #333 3px 3px 3px;
+}
+
+.destak-text {
+  background: linear-gradient(var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
 
 #home img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 400px;
+  height: 50%;
 }
 
 @media only screen and (max-width: 480px) {
@@ -255,21 +263,19 @@ h1 {
     margin: 10px 10px;
   }
 
+  #about img {
+    width: 300px;
+    height: 400px;
+  }
+
   .about-me {
     width: 100%;
     padding: 0px;
   } 
 
-  #about img {
-    height: auto;
-  }
-
-  #home img {
-    height: 40%;
-    width: auto;
-    z-index: 0;
-    right: 0;
-  }
+  /* #home img {
+    display: none;
+  } */
 
   section {
     padding: 10px;
