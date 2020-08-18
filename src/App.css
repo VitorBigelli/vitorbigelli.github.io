@@ -126,6 +126,10 @@ nav a:hover .tooltip {
   font-size: 55px !important;
 }
 
+.rabbitmq svg {
+  margin: 10px;
+}
+
 
 section {
   min-height: 100vh;
@@ -188,6 +192,7 @@ h1 {
 #skills li {
   font-size: 70px;
   margin: 0 10px;
+  transition: color 0.5 ease-in-out;
 }
 
 #skills h3 {
@@ -197,7 +202,7 @@ h1 {
 
 #home img {
   position: absolute;
-  right: 100px;
+  right: 10%;
   width: 400px;
 }
 
