@@ -1,7 +1,9 @@
 import React from 'react'
 import profile from '../../assets/profile.jpg'
 import Fade from 'react-reveal/Fade'
-import Flip from 'react-reveal/Flip'
+import Flip from 'react-reveal/Flip' 
+
+
 
 function About () {
     return (
@@ -14,10 +16,16 @@ function About () {
                     <img src={profile} alt='Vitor Bigelli - vitorbigelli - Profile'  width={300} />
                 </Flip>
                 <Fade bottom>     
-                    <p className='about-me'>
-                        Programador desde os 16 anos, possuo graduação técnica em Informática para Internet pela ETEC de Itanhaém e Nanodegrees pela Udacity em Desenvolvimento Front-End e React. Atualmente sou Desenvolvedor Full-Stack e Pesquisador Cientista na Nindoo AI.
-                        <br /><br />
-                        Entusiasta da Inteligência Artificial e apaixonado por aprender e ensinar, acredito na tecnologia como ferramenta para construir um mundo melhor.
+                    <p className='about-me'>                    
+                    Enthusiast of Artificial Intelligence and passionate about learning and teaching, I believe in technology as the tool to build a better world.
+                    <br/><br/>
+                    I started my professional development at ETEC de Itanhaém, where I obtained a technical degree in Internet Informatics at the age of 17, learning programming logic and the basic concepts behind web applications.
+                    <br/><br/>
+                    My focus changed when I started a graduation in Materials Engineer at UTFPR, guided for my mathematical passion and ease in the field. Inside the university, I developed two projects directed to teaching basic informatics and programming logic using Java.
+                    <br/><br/>
+                    4 years ago I started to study programming again, this time focusing on front-end development.
+                    <br/><br/>
+                    Today, I work at Nindoo AI, as Full-Stack Developer and R&D Scientist with focus on delivering technologies to solve real world problems.     
                     </p>
                 </Fade>
             </div>

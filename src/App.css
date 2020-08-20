@@ -166,14 +166,15 @@ h1 {
 }
 
 .project-container:after {
-  content: 'x';
-  color: var(--secondary-color);
+  content: '-';
+  color: white;
 }
 
 #about img {
   margin: 10px;
   min-width: 300px;
   height: auto;
+  max-height: 400px;
 }
 
 .about-inner {
