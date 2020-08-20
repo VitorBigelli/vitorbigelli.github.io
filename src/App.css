@@ -165,10 +165,6 @@ h1 {
   text-align: center;
 }
 
-.project-container:after {
-  content: '-';
-  color: white;
-}
 
 #about img {
   margin: 10px;
@@ -256,8 +252,13 @@ h1 {
     text-align: center;
   }
 
+  #home {
+    padding-top: 0;
+  }
+
   #home span {
     display: block;
+    margin: 0;
   }
 
   h1 {
@@ -290,9 +291,11 @@ h1 {
     padding: 0px;
   } 
 
-  /* #home img {
-    display: none;
-  } */
+  #home img {
+    margin: 0;
+    width: 50%;
+    height: auto;
+  }
 
   section {
     padding: 10px;
