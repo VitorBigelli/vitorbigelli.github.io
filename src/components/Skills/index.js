@@ -20,6 +20,7 @@ import {
 import { Icon } from '@iconify/react';
 import neo4jIcon from '@iconify/icons-simple-icons/neo4j';
 import rabbitmq from '@iconify/icons-simple-icons/rabbitmq';
+import Bounce from 'react-reveal/Bounce'
 
 const skills = {
     front: [
@@ -53,35 +54,40 @@ function Skills () {
         <section id='skills' >
             <h1> My Skills </h1> 
             <h3> Front-end </h3>  
-            <ul className='flex-row centralize'> 
-                {
-                    skills.front.map( (s, i) => {
-                        return (
-                            <li className={s.className}> 
-                                { s.icon() }
-                                <span className='tooltip'> { s.name }</span>
-                            </li>
-                        )
-                    })
-                }
-            </ul>
+            <Bounce left> 
+                <ul className='flex-row centralize'> 
+                    {
+                        skills.front.map( (s, i) => {
+                            return (
+                                <li className={s.className}> 
+                                    { s.icon() }
+                                    <span className='tooltip'> { s.name }</span>
+                                </li>
+                            )
+                        })
+                    }
+                </ul>
+            </Bounce>
 
             <h3> Back-end </h3>
-            <ul className='flex-row centralize'> 
-                {
-                    skills.back.map( (s, i) => {
-                        return (
-                            <li className={s.className}> 
-                                { s.icon() }
-                                <span className='tooltip'> { s.name }</span>
-                            </li>
-                        )
-                    })
-                }
-            
-            </ul>
+            <Bounce right>
+                <ul className='flex-row centralize'> 
+                    {
+                        skills.back.map( (s, i) => {
+                            return (
+                                <li className={s.className}> 
+                                    { s.icon() }
+                                    <span className='tooltip'> { s.name }</span>
+                                </li>
+                            )
+                        })
+                    }
+                
+                </ul>
+            </Bounce>
             
             <h3> Databases </h3>
+            <Bounce left>
             <ul className='flex-row  centralize'>
                 
                 {
@@ -95,22 +101,25 @@ function Skills () {
                     })
                 }
             </ul>
+            </Bounce>
 
             <h3> DevOps, Deployment & Cloud </h3>     
-            <ul className='flex-row centralize'> 
+            <Bounce right>
+                <ul className='flex-row centralize'> 
+                    
+                    {
+                        skills.devops.map( (s, i) => {
+                            return (
+                                <li className={s.className}> 
+                                    { s.icon() }
+                                    <span className='tooltip'> { s.name }</span>
+                                </li>
+                            )
+                        })
+                    }
                 
-                {
-                    skills.devops.map( (s, i) => {
-                        return (
-                            <li className={s.className}> 
-                                { s.icon() }
-                                <span className='tooltip'> { s.name }</span>
-                            </li>
-                        )
-                    })
-                }
-            
-            </ul>
+                </ul>
+            </Bounce>
         </section>
     )
 }
