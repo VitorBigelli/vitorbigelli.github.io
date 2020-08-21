@@ -250,11 +250,13 @@ h1 {
   border: none;
   color: white;
   background-color: transparent;
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   padding: 0;
+  z-index: 10;
+  visibility: hidden;
 }
 
 
@@ -291,7 +293,7 @@ h1 {
 .toggle-menu.hidden div {
   position: relative;
   transform: rotate(360deg);
-  background: linear-gradient(var(--primary-color), var(--secondary-color));
+  background: white;
   transition: background 0.5s ease-in-out transform 0.5s ease-in-out;
   left: 0;
 } 
@@ -325,14 +327,14 @@ h1 {
   } 
 
   nav.hidden {
-    right: -50px;
+    right: -70px;
     transition: right 0.5s ease-in-out;
   }
 
   nav {
     flex-direction: column;
     position: fixed;
-    right: 0;
+    right: 0px;
     left: unset;
     width: 50px;
     height: 100vh;
@@ -369,7 +371,7 @@ h1 {
   }
 
   section {
-    width: calc(100% - 20px);
+    min-width: calc(100vw - 20px);
   }
 
   nav a .tooltip {
@@ -381,9 +383,9 @@ h1 {
     bottom: -5px;
     top: unset;
   }
-
+  
   .toggle-menu {
-    display: flex;
+    visibility: visible;
   }
 
 }
