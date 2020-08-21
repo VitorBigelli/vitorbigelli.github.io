@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { 
     IoIosHome,
     IoIosPerson, 
@@ -18,13 +18,21 @@ import { Link } from 'react-scroll'
 // ]
 
 function Sidebar () {
+
+    const [ isOpen, toggleMenu ] = useState(false)
+
     return (
-        <nav className='gradient-background'>
+        <nav className={ isOpen ? 'gradient-background' : 'gradient-background hidden' } >
             <Link to='home' smooth={true} spy={true} duration={500} > <IoIosHome /> <span className='tooltip'> Home </span> </Link>
             <Link to='about' smooth={true} spy={true} duration={500} > <IoIosPerson />  <span className='tooltip'> About me </span>  </Link>
             <Link to='skills' smooth={true} spy={true} duration={500} > <IoIosApps />  <span className='tooltip'> Skills </span>  </Link>
             <Link to='projects' smooth={true} spy={true} duration={500} > <IoIosRocket />  <span className='tooltip'> Projects </span>  </Link>
             <Link to='contact' smooth={true} spy={true} duration={500} > <IoIosChatbubbles />  <span className='tooltip'> Contact </span>  </Link>
+            <button onClick={() => toggleMenu(!isOpen)} className={ isOpen ? 'toggle-menu' : 'toggle-menu hidden'}>
+                <div/>
+                <div/>
+                <div/>
+            </button>
         </nav>
     )
 }
