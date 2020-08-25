@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47ec8383f6af7cdb28cdaafb97ad25db",
+    "revision": "529ffccf6125f0d6211d47c73f9236bf",
     "url": "/vitorbigelli.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css"
   },
   {
-    "revision": "c6b7a8b07ec413520a73",
+    "revision": "c5e159cf5b07e06b8166",
     "url": "/vitorbigelli.github.io/static/css/main.013afbe0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vitorbigelli.github.io/static/js/2.9bce0ed3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6b7a8b07ec413520a73",
-    "url": "/vitorbigelli.github.io/static/js/main.075a0578.chunk.js"
+    "revision": "c5e159cf5b07e06b8166",
+    "url": "/vitorbigelli.github.io/static/js/main.357e763f.chunk.js"
   },
   {
     "revision": "649add106404055fce40",
