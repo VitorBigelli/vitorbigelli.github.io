@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vitorbigelli.github.io/static/css/main.013afbe0.chunk.css",
-    "main.js": "/vitorbigelli.github.io/static/js/main.075a0578.chunk.js",
-    "main.js.map": "/vitorbigelli.github.io/static/js/main.075a0578.chunk.js.map",
+    "main.js": "/vitorbigelli.github.io/static/js/main.357e763f.chunk.js",
+    "main.js.map": "/vitorbigelli.github.io/static/js/main.357e763f.chunk.js.map",
     "runtime-main.js": "/vitorbigelli.github.io/static/js/runtime-main.20333f23.js",
     "runtime-main.js.map": "/vitorbigelli.github.io/static/js/runtime-main.20333f23.js.map",
     "static/css/2.178dc2c7.chunk.css": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css",
     "static/js/2.9bce0ed3.chunk.js": "/vitorbigelli.github.io/static/js/2.9bce0ed3.chunk.js",
     "static/js/2.9bce0ed3.chunk.js.map": "/vitorbigelli.github.io/static/js/2.9bce0ed3.chunk.js.map",
     "index.html": "/vitorbigelli.github.io/index.html",
-    "precache-manifest.080697afa16b53d762d16e37816d3571.js": "/vitorbigelli.github.io/precache-manifest.080697afa16b53d762d16e37816d3571.js",
+    "precache-manifest.07fc109b9da6ffe6609e9ab9e017a5bf.js": "/vitorbigelli.github.io/precache-manifest.07fc109b9da6ffe6609e9ab9e017a5bf.js",
     "service-worker.js": "/vitorbigelli.github.io/service-worker.js",
     "static/css/2.178dc2c7.chunk.css.map": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css.map",
     "static/css/main.013afbe0.chunk.css.map": "/vitorbigelli.github.io/static/css/main.013afbe0.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.178dc2c7.chunk.css",
     "static/js/2.9bce0ed3.chunk.js",
     "static/css/main.013afbe0.chunk.css",
-    "static/js/main.075a0578.chunk.js"
+    "static/js/main.357e763f.chunk.js"
   ]
 }
