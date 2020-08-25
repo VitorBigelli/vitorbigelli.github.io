@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/vitorbigelli.github.io/static/css/main.013afbe0.chunk.css",
-    "main.js": "/vitorbigelli.github.io/static/js/main.3d8bb922.chunk.js",
-    "main.js.map": "/vitorbigelli.github.io/static/js/main.3d8bb922.chunk.js.map",
+    "main.js": "/vitorbigelli.github.io/static/js/main.d7a8500d.chunk.js",
+    "main.js.map": "/vitorbigelli.github.io/static/js/main.d7a8500d.chunk.js.map",
     "runtime-main.js": "/vitorbigelli.github.io/static/js/runtime-main.20333f23.js",
     "runtime-main.js.map": "/vitorbigelli.github.io/static/js/runtime-main.20333f23.js.map",
     "static/css/2.178dc2c7.chunk.css": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css",
-    "static/js/2.4760302e.chunk.js": "/vitorbigelli.github.io/static/js/2.4760302e.chunk.js",
-    "static/js/2.4760302e.chunk.js.map": "/vitorbigelli.github.io/static/js/2.4760302e.chunk.js.map",
+    "static/js/2.679be74e.chunk.js": "/vitorbigelli.github.io/static/js/2.679be74e.chunk.js",
+    "static/js/2.679be74e.chunk.js.map": "/vitorbigelli.github.io/static/js/2.679be74e.chunk.js.map",
     "index.html": "/vitorbigelli.github.io/index.html",
-    "precache-manifest.09d0b190aef6934977b3ba69206d818b.js": "/vitorbigelli.github.io/precache-manifest.09d0b190aef6934977b3ba69206d818b.js",
+    "precache-manifest.0ca275f202b171c73f88c96305cfa1f5.js": "/vitorbigelli.github.io/precache-manifest.0ca275f202b171c73f88c96305cfa1f5.js",
     "service-worker.js": "/vitorbigelli.github.io/service-worker.js",
     "static/css/2.178dc2c7.chunk.css.map": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css.map",
     "static/css/main.013afbe0.chunk.css.map": "/vitorbigelli.github.io/static/css/main.013afbe0.chunk.css.map",
-    "static/js/2.4760302e.chunk.js.LICENSE.txt": "/vitorbigelli.github.io/static/js/2.4760302e.chunk.js.LICENSE.txt",
+    "static/js/2.679be74e.chunk.js.LICENSE.txt": "/vitorbigelli.github.io/static/js/2.679be74e.chunk.js.LICENSE.txt",
     "static/media/hero.png": "/vitorbigelli.github.io/static/media/hero.65fa60b8.png",
     "static/media/profile.jpg": "/vitorbigelli.github.io/static/media/profile.8913b86a.jpg",
     "static/media/project_1.png": "/vitorbigelli.github.io/static/media/project_1.77fd6600.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.20333f23.js",
     "static/css/2.178dc2c7.chunk.css",
-    "static/js/2.4760302e.chunk.js",
+    "static/js/2.679be74e.chunk.js",
     "static/css/main.013afbe0.chunk.css",
-    "static/js/main.3d8bb922.chunk.js"
+    "static/js/main.d7a8500d.chunk.js"
   ]
 }
