@@ -4,7 +4,8 @@ import {
     IoIosPerson, 
     IoIosApps,
     IoIosRocket,
-    IoIosChatbubbles
+    IoIosChatbubbles,
+    IoIosDocument
 } from 'react-icons/io'
 import { Link } from 'react-scroll'
 
@@ -27,6 +28,7 @@ function Sidebar () {
             <Link to='about' smooth={true} spy={true} duration={500} > <IoIosPerson />  <span className='tooltip'> About me </span>  </Link>
             <Link to='skills' smooth={true} spy={true} duration={500} > <IoIosApps />  <span className='tooltip'> Skills </span>  </Link>
             <Link to='projects' smooth={true} spy={true} duration={500} > <IoIosRocket />  <span className='tooltip'> Projects </span>  </Link>
+            <Link to='certifications' smooth={true} spy={true} duration={500} > <IoIosDocument />  <span className='tooltip'> Certifications </span>  </Link>
             <Link to='contact' smooth={true} spy={true} duration={500} > <IoIosChatbubbles />  <span className='tooltip'> Contact </span>  </Link>
             <div onClick={() => toggleMenu(!isOpen)} className={ isOpen ? 'toggle-menu' : 'toggle-menu hidden'}>
                 <div/>

@@ -5,6 +5,7 @@
 
 body {
   overflow: auto;
+  overflow-x: hidden;
 }
 
 p, div {
