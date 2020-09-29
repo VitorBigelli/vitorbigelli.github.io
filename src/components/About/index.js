@@ -17,7 +17,7 @@ function About () {
                 </Flip>
                 <Fade bottom>     
                     <p className='about-me'>                    
-                    Enthusiast of Artificial Intelligence and passionate about learning and teaching, I believe in technology as the tool to build a better world.
+                    Hi, My name is Vitor Bigelli. Enthusiast of Artificial Intelligence and passionated about learning and teaching, I believe in technology as the tool to build a better world.
                     <br/><br/>
                     I started my professional development at ETEC de Itanhaém, where I obtained a technical degree in Internet Informatics at the age of 17, learning programming logic and the basic concepts behind web applications.
                     <br/><br/>
