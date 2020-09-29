@@ -150,7 +150,6 @@ section {
 
 h1 {
   font-size: 4vw;
-  text-align: left;
   color: white;
 }
 
@@ -222,7 +221,6 @@ h1 {
 
 #home h1 {
   text-shadow: #333 3px 3px 3px;
-  text-align: left;
 }
 
 .centralize {
@@ -237,10 +235,6 @@ h1 {
   text-shadow: none;
 }
 
-#home img {
-  width: 300px;
-  height: 300px;
-}
 
 .toggle-menu {
   position: fixed;
@@ -300,7 +294,20 @@ h1 {
 } 
 
 
+.avatar-image {
+  margin: 0;
+  width: 200px;
+  height: 200px;
+}
 
+.home-title {
+  width: 100%;
+  font-size: 3vh;
+}
+
+.home-image-container {
+  width: 100%;
+}
 
 @media only screen and (max-width: 480px) {
   #projects img {
@@ -358,13 +365,13 @@ h1 {
 
   .about-me {
     width: 100%;
-    padding: 0px;
+    padding: 0px; 
   } 
 
-  #home img {
+  .avatar-image {
     margin: 0;
-    width: 50%;
-    height: auto;
+    width: 100px;
+    height: 100px;
   }
 
   section {
@@ -392,3 +399,39 @@ h1 {
 }
 
 
+.logo-image { 
+  width: 400px !important;
+  height: 200px !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.centralize {
+  text-align: center;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.align-items-start {
+  align-items:flex-start;
+}
