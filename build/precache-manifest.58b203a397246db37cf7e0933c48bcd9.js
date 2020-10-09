@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84aacd4d8b2c6cb0f150a93a02a71ce5",
+    "revision": "6b404ba93a9d6b2ffdcaf170f4b171ce",
     "url": "/vitorbigelli.github.io/index.html"
   },
   {
-    "revision": "26a88f8ba0ec1db2ba8d",
+    "revision": "5ff700695cc3b23b3645",
     "url": "/vitorbigelli.github.io/static/css/2.178dc2c7.chunk.css"
   },
   {
-    "revision": "4a207792b8021967a380",
-    "url": "/vitorbigelli.github.io/static/css/main.013afbe0.chunk.css"
+    "revision": "0c605015c0ef1b3bba6f",
+    "url": "/vitorbigelli.github.io/static/css/main.6c596ebb.chunk.css"
   },
   {
-    "revision": "26a88f8ba0ec1db2ba8d",
-    "url": "/vitorbigelli.github.io/static/js/2.4760302e.chunk.js"
+    "revision": "5ff700695cc3b23b3645",
+    "url": "/vitorbigelli.github.io/static/js/2.7dfabaaf.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/vitorbigelli.github.io/static/js/2.4760302e.chunk.js.LICENSE.txt"
+    "url": "/vitorbigelli.github.io/static/js/2.7dfabaaf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a207792b8021967a380",
-    "url": "/vitorbigelli.github.io/static/js/main.efdd27e8.chunk.js"
+    "revision": "0c605015c0ef1b3bba6f",
+    "url": "/vitorbigelli.github.io/static/js/main.aab226e4.chunk.js"
   },
   {
     "revision": "649add106404055fce40",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "65fa60b830499d925fc077098e193d37",
     "url": "/vitorbigelli.github.io/static/media/hero.65fa60b8.png"
+  },
+  {
+    "revision": "fa9741b0036b1ee6ce70811378a219c3",
+    "url": "/vitorbigelli.github.io/static/media/mit_data_science.fa9741b0.png"
+  },
+  {
+    "revision": "56eb0ad36706ca030617d938ea30257d",
+    "url": "/vitorbigelli.github.io/static/media/mit_python.56eb0ad3.png"
   },
   {
     "revision": "8913b86add0095f7d045c513e6590d64",
@@ -62,5 +70,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2feb69ccb596730c72920c6ba3e37ef8",
     "url": "/vitorbigelli.github.io/static/media/revicons.2feb69cc.eot"
+  },
+  {
+    "revision": "a9dc7f083aad4f409f9dc7545502d1c9",
+    "url": "/vitorbigelli.github.io/static/media/udacity_front.a9dc7f08.png"
+  },
+  {
+    "revision": "499552ec7820f4fe91b9ac6f796b9c8d",
+    "url": "/vitorbigelli.github.io/static/media/udacity_react.499552ec.png"
   }
 ]);
