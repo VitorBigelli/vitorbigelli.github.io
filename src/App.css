@@ -402,7 +402,8 @@ h1 {
 .logo-image { 
   width: 400px !important;
   height: 200px !important;
-  transition: all 2s ease-in-out;
+  transform: rotate(0deg);
+  transition: all 1s ease-in-out;
 }
 
 .logo-image:hover {
