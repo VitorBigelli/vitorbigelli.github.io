@@ -20,7 +20,7 @@ import {
 import { Icon } from '@iconify/react';
 import neo4jIcon from '@iconify/icons-simple-icons/neo4j';
 import rabbitmq from '@iconify/icons-simple-icons/rabbitmq';
-import Bounce from 'react-reveal/Bounce'
+import Fade from 'react-reveal/Fade'
 
 const skills = {
     front: [
@@ -54,7 +54,7 @@ function Skills () {
         <section id='skills' >
             <h1> My Skills </h1> 
             <h3> Front-end </h3>  
-            <Bounce left> 
+            <Fade clear> 
                 <ul className='flex-row centralize'> 
                     {
                         skills.front.map( (s, i) => {
@@ -67,10 +67,10 @@ function Skills () {
                         })
                     }
                 </ul>
-            </Bounce>
+            </Fade>
 
             <h3> Back-end </h3>
-            <Bounce right>
+            <Fade clear>
                 <ul className='flex-row centralize'> 
                     {
                         skills.back.map( (s, i) => {
@@ -84,10 +84,10 @@ function Skills () {
                     }
                 
                 </ul>
-            </Bounce>
+            </Fade>
             
             <h3> Databases </h3>
-            <Bounce left>
+            <Fade clear>
             <ul className='flex-row  centralize'>
                 
                 {
@@ -101,10 +101,10 @@ function Skills () {
                     })
                 }
             </ul>
-            </Bounce>
+            </Fade>
 
             <h3> DevOps, Deployment & Cloud </h3>     
-            <Bounce right>
+            <Fade clear>
                 <ul className='flex-row centralize'> 
                     
                     {
@@ -119,7 +119,7 @@ function Skills () {
                     }
                 
                 </ul>
-            </Bounce>
+            </Fade>
         </section>
     )
 }

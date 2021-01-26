@@ -1,15 +1,14 @@
 .App {
-  text-align: center;
-  background: linear-gradient(#101010, #000);
+  height: 100vh;
 } 
 
 body {
-  overflow: auto;
-  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
 p, div {
-  color: white;
+  color: #101010;
 }
 
 :root {
@@ -24,21 +23,22 @@ p, div {
 nav {
   position: fixed;
   left: 0;
-  bottom: 0;
-  width: 50px;
+  top: 0;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  font-size: 30px;
+  font-size: 14px;
+  text-transform: uppercase;
   color: white;
-  height: 100vh;
+  height: 70px;
   z-index: 10;
 }
 
 nav a {
-  margin: 15px 10px;
+  margin: 15px 30px;
   cursor: pointer;
   position: relative;
+  color: #101010;
 }
 
 nav a .tooltip {
@@ -133,8 +133,7 @@ nav a:hover .tooltip {
 
 
 section {
-  min-height: 100vh;
-  background: #101010;
+  min-width: 100vw;
   width: calc(100% - 80px);
   padding: 15px;
   display: flex;
@@ -146,11 +145,6 @@ section {
 
 #home {
   justify-content: center;
-}
-
-h1 {
-  font-size: 4vw;
-  color: white;
 }
 
 .flex-row {
@@ -168,9 +162,9 @@ h1 {
 
 #about img {
   margin: 10px;
-  min-width: 300px;
   height: auto;
-  max-height: 400px;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .about-inner {
@@ -182,7 +176,6 @@ h1 {
   width: 50%;
   min-width: 300px;
   font-size: 20px;
-  color: white;
   text-align: left;
 }
 
@@ -217,10 +210,19 @@ h1 {
 
 #home {
   height: 100vh;
+} 
+
+h1, h2 {
+  color: #5c3f83;
+}
+
+#home h5 {
+  color: gray;
 }
 
 #home h1 {
-  text-shadow: #333 3px 3px 3px;
+  color: #5c3f83;
+  font-size: 72px;
 }
 
 .centralize {
@@ -440,4 +442,71 @@ h1 {
 
 .align-items-start {
   align-items:flex-start;
+}
+
+/* TIMELINE */ 
+
+.timeline-item-text {
+  width: 200px;
+  position: absolute;
+}
+
+.timeline-top {
+  bottom: 30px;
+}
+
+.timeline-top::after {
+  content: ' ';
+  position: absolute;
+  left: 15px;
+  bottom: -25px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;  
+  border-top: 15px solid #5c3f83;
+}
+
+
+.timeline-bottom::after {
+  content: ' ';
+  position: absolute;
+  left: 15px;
+  top: -25px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;  
+  border-bottom: 15px solid #5c3f83;
+}
+
+.timeline-bottom {
+  top: 45px;
+}
+
+.timeline {
+  background-color: #5c3f83;
+  width: 70%;
+  display: flex;
+  height: 3px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin: 250px 0;
+}
+
+.timeline::after {
+  content: ' ';
+  position: absolute;
+  right: 0;
+  border-left: 3px solid #5c3f83;
+  border-bottom: 3px solid #5c3f83;
+  height: 15px;
+  width: 15px;
+  transform: rotate(225deg);
+}
+
+.timeline span {
+  background: white;
+  padding: 5px 10px;
 }

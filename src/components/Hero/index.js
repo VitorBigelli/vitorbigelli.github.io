@@ -9,15 +9,12 @@ function Hero () {
     return (
         <section id='home' >
             <Fade left duration={1000} delay={500} distance="30px" className='flex-row'>
-                <div className='d-flex flex-row justify-content-center align-items-start'>
-                    <img src={hero} alt='Vitor Bigelli | vitorbigelli | Bitmoji' className='avatar-image'/> 
-                    <div className='d-flex flex-column justify-content-start align-items-center'>
-                        <img  src={logo} alt='Vito Bigelli | vitorbigelli | Logo' className='logo-image' />
-                        <h5 className='centralize home-title'>
-                            Full Stack Web Developer
-                        </h5> 
-                    </div>
-                </div>
+                    {/* <img src={hero} alt='Vitor Bigelli | vitorbigelli | Bitmoji' className='avatar-image'/>  */}
+                    <h2> Hi, my name is </h2>
+                    <h1>Vitor Bigelli 👋 </h1>
+                    <h5 className='centralize home-title'>
+                        I'm a Web Developer/Software Engineer living in São Paulo, Brazil
+                    </h5> 
             </Fade>                        
         </section>
     )

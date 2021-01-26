@@ -1,33 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
 import profile from '../../assets/profile.jpg'
 import Fade from 'react-reveal/Fade'
 import Flip from 'react-reveal/Flip' 
+import Timeline from '@material-ui/lab/Timeline';
+import TimelineItem from '@material-ui/lab/TimelineItem';
+import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
+import TimelineConnector from '@material-ui/lab/TimelineConnector';
+import TimelineContent from '@material-ui/lab/TimelineContent';
+import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
+import TimelineDot from '@material-ui/lab/TimelineDot';
+// import FastfoodIcon from '@material-ui/icons/Fastfood';
+import LaptopMacIcon from '@material-ui/icons/LaptopMac';
+import HotelIcon from '@material-ui/icons/Hotel';
+import RepeatIcon from '@material-ui/icons/Repeat';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
 
+import { Container, Row, Col } from 'react-bootstrap' 
 
+function About () { 
 
-function About () {
+    const [ index, updateIndex ] = useState(0)
+
     return (
-        <section id='about' >
-            <Fade left  duration={1000} delay={500} distance="30px">
-            <h1> About Me </h1>
-            </Fade>
-            <div className='flex-row about-inner'>
-                <Flip left duration={500} delay={500} >
-                    <img src={profile} alt='Vitor Bigelli - vitorbigelli - Profile'  width={300} />
-                </Flip>
-                <Fade bottom>     
-                    <p className='about-me'>                    
-                    Hi, My name is Vitor Bigelli. Enthusiast of Artificial Intelligence and passionated about learning and teaching, I believe in technology as the tool to build a better world.
-                    <br/><br/>
-                    I started my professional development at ETEC de Itanhaém, where I obtained a technical degree in Internet Informatics at the age of 17, learning programming logic and the basic concepts behind web applications.
-                    <br/><br/>
-                    My focus changed when I started a graduation in Materials Engineer at UTFPR, guided for my mathematical passion and ease in the field. Inside the university, I developed two projects directed to teaching basic informatics and programming logic using Java.
-                    <br/><br/>
-                    4 years ago I started to study programming again, this time focusing on front-end development.
-                    <br/><br/>
-                    Today, I work at Nindoo AI, as Full-Stack Developer and R&D Scientist with focus on delivering technologies to solve real world problems.     
-                    </p>
-                </Fade>
+        <section id='about'  className='d-flex flex-row align-items-center justify-content-center'>
+            <h1 className='mr-5'> My Journey </h1> 
+            <div className='timeline'>
+                <span> 2012 <p className='timeline-item-text timeline-top'> Acquired a technical degree in Internet Informatics at ETEC de Itanhaém. </p> </span>
+                <span> 2013 <p className='timeline-item-text timeline-bottom'> I started the Materials Engineer graduation at UTFPR, where I developed two projects directed to teaching basic informatics and programming logic using Java.</p> </span>
+                <span> 2017 <p className='timeline-item-text timeline-top'> I took Online programming courses obtaining certifications from Udacity and MIT. </p> </span>
+                <span> 2018 <p className='timeline-item-text timeline-bottom'> First job: Full-Stack Developer at a Real Estate company from Curitiba-PR.  </p></span>
+                <span> 2019 <p className='timeline-item-text timeline-top'> Current job: Full-Stack Developer and R&D Scientist with focus on state-of-the-art technologies at Nindoo AI. </p></span>
             </div>
         </section>
     )
