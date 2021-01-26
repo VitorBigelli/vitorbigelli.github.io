@@ -8,7 +8,9 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Certifications from './components/Certifications'
 import { Helmet } from 'react-helmet'
-import HorizontalScroll from 'react-scroll-horizontal';
+import HorizontalScroll from 'react-scroll-horizontal'; 
+
+import './assets/css/background.css'
 
 function App() {
   return (
@@ -21,9 +23,9 @@ function App() {
       <HorizontalScroll reverseScroll={true} animValues={3}>
         <Hero key={0} />
         <About key={1} />
-        <Skills key={2} />
-        <Projects key={3} />
+        {/* <Skills key={2} /> */}
         <Certifications key={4} />
+        <Projects key={3} />
         <Contact key={5} />
       </HorizontalScroll>
     </div>

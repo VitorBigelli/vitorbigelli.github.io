@@ -23,7 +23,7 @@ function About () {
     const [ index, updateIndex ] = useState(0)
 
     return (
-        <section id='about'  className='d-flex flex-row align-items-center justify-content-center'>
+        <section id='about'  className='d-inline-flex flex-row align-items-center justify-content-start flex-wrap'>
             <h1 className='mr-5'> My Journey </h1> 
             <div className='timeline'>
                 <span> 2012 <p className='timeline-item-text timeline-top'> Acquired a technical degree in Internet Informatics at ETEC de Itanhaém. </p> </span>

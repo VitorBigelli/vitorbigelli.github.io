@@ -6,7 +6,7 @@ const contact_list = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/vitor-bigelli-559380150/', icon: () => <FaLinkedin /> }, 
     { name: 'GitHub', url: 'https://github.com/VitorBigelli', icon: () => <FaGithub /> }, 
     { name: 'Twitter', url: 'https://twitter.com/bigellivitor', icon: () => <FaTwitter /> }, 
-    { name: 'Instagram', url: 'https://www.instagram.com/vitorbigelli/?hl=en', icon: () => <FaInstagram /> }, 
+    // { name: 'Instagram', url: 'https://www.instagram.com/vitorbigelli/?hl=en', icon: () => <FaInstagram /> }, 
     { name: 'WhatsApp', url: 'https://api.whatsapp.com/send?phone=5511930954455', icon: () => <FaWhatsapp /> }
 ]
 
@@ -23,45 +23,50 @@ export default class Contact extends React.Component {
         const { email, name, error, sent, message } = this.state    
         
         return (
-            <section id='contact' > 
-                <h1> Contact </h1>
-                <div className='contact-list'>
-                { 
-                    contact_list.map( (c, i) => {
-                        return (
-                            <a href={c.url} target='_blank' key={i} rel="noopener noreferrer"> 
-                                { c.icon() }
-                            </a>
-                        )
-                    })
-                }
-                </div>
-                <form className="mailing">
-                    <input type='text' value={name} required placeholder='Nome' onChange={ (e) => this.setState({ name: e.target.value })} />
-                    <input type='text' value={email} required placeholder='E-mail' onChange={ (e) => this.setState({ email: e.target.value })}  />
-                    <textarea
-                        id="test-mailing"
-                        name="test-mailing"
-                        onChange={this.handleChange}
-                        placeholder="Mensagem"
-                        required
-                        value={this.state.feedback}
-                        style={{width: '100%', height: '150px'}}
-                    />
-                    <div className='flex-row reverse'>
-                        <input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />
-                        { error && 
-                            <div className='message flex-row'>
-                                <span> { message }</span>
-                            </div> 
-                        }
-                        { sent && 
-                            <div className='message flex-row'>
-                                <span> { message }</span>
-                            </div> 
-                        }
+            <section id='contact' className='d-flex flex-row align-items-center' > 
+                <h1 className='mr-5'> Contact </h1>
+                <div className='d-flex flex-column'>
+                    <div className='contact-list'>
+                    { 
+                        contact_list.map( (c, i) => {
+                            return (
+                                <a href={c.url} target='_blank' key={i} rel="noopener noreferrer"> 
+                                    { c.icon() }
+                                </a>
+                            )
+                        })
+                    }
                     </div>
-                </form>
+                    <div className='timeline w-100' />
+                    <form className="mailing">
+                        <input type='text' value={name} required placeholder='Nome' onChange={ (e) => this.setState({ name: e.target.value })} />
+                        <input type='text' value={email} required placeholder='E-mail' onChange={ (e) => this.setState({ email: e.target.value })}  />
+                        <textarea
+                            id="test-mailing"
+                            name="test-mailing"
+                            onChange={this.handleChange}
+                            placeholder="Mensagem"
+                            required
+                            value={this.state.feedback}
+                            style={{width: '100%', height: '150px'}}
+                        />
+                        <div className='flex-row reverse'>
+                            <input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />
+                            { error && 
+                                <div className='message flex-row'>
+                                    <span> { message }</span>
+                                </div> 
+                            }
+                            { sent && 
+                                <div className='message flex-row'>
+                                    <span> { message }</span>
+                                </div> 
+                            }
+                        </div>
+                    </form>
+                </div>
+                
+               
             </section>
         )
     }

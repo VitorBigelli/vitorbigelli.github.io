@@ -9,36 +9,35 @@ import Flip from 'react-reveal/Flip'
 
 function Certifications () {
     return (
-        <section id='certifications' >
-            <h1> Certifications </h1>
-            <div className='project-container'>
-                <h2> React Developer Nanodegree </h2>
-                <Flip left>
-                <img src={udacity_react}  alt='Vitor Bigelli | vitorbigelli | DeepWild'/>
-                </Flip>
-                <p> Udacity (2018) </p>
-            </div>
-            <div className='project-container'>
-                <h2> Front-End Web Developer Nanodegree </h2>
-                <Flip right>
-                <img src={udacity_front} alt='Vitor Bigelli | vitorbigelli | DeepWild' /> 
-                </Flip> 
-                <p> Udacity (2019) </p>               
-            </div>
-            <div className='project-container'>
-                <h2> Introduction to Computational Thinking and Data Science </h2>
-                <Flip left>
-                <img src={mit_python}  alt='Vitor Bigelli | vitorbigelli | MIT edx'/>
-                </Flip>
-                <p> edx/MIT (2017)</p>
-            </div>
-            <div className='project-container'>
-                <h2> Introduction to Computer Science and Programming with Python </h2>
-                <Flip left>
-                <img src={mit_data_science}  alt='Vitor Bigelli | vitorbigelli | MIT edx'/>
-                </Flip>
-                <p> edx/MIT (2017)</p>
-            </div>
+        <section id='certifications' className='d-flex flex-row align-items-center'>
+            <h1 className='mr-5'> Certifications </h1>
+            <div className='w-70'>
+                <div className='d-flex'>
+                    <div className='project-container'>
+                        <img src={mit_python}  alt='Vitor Bigelli | vitorbigelli | MIT edx'/>
+                        <h5> Introduction to Computer Science and Programming with Python </h5>
+                        <p> edX/MIT (2017)</p>
+                    </div>
+                    <div className='project-container'>
+                        <img src={mit_data_science}  alt='Vitor Bigelli | vitorbigelli | MIT edx'/>
+                        <h5> Introduction to Computational Thinking and Data Science </h5>
+                        <p> edX/MIT (2017)</p>
+                    </div>
+                </div>
+                <div className='timeline w-100' />     
+                <div className='d-flex'>
+                    <div className='project-container'>
+                        <img src={udacity_front} alt='Vitor Bigelli | vitorbigelli | DeepWild' /> 
+                        <h5> Front-End Web Developer Nanodegree </h5>
+                        <p> Udacity (2017) </p>               
+                    </div>
+                    <div className='project-container'>
+                        <img src={udacity_react}  alt='Vitor Bigelli | vitorbigelli | DeepWild'/>
+                        <h5> React Developer Nanodegree </h5>
+                        <p> Udacity (2018) </p>
+                    </div>
+                </div>
+            </div>            
         </section>
     )
 }

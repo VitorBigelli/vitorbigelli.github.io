@@ -49,7 +49,6 @@ nav a .tooltip {
   right: -120px;
   top: 10px;
   visibility: hidden;
-  color: white;
 }
 
 nav a:hover {
@@ -77,7 +76,8 @@ nav a:hover .tooltip {
   bottom: -10px;
   left: 0;
   width: 100%;
-  visibility: hidden;
+  color: red;
+  z-index: 10;
 }
 
 .react:hover,
@@ -133,18 +133,16 @@ nav a:hover .tooltip {
 
 
 section {
-  min-width: 100vw;
-  width: calc(100% - 80px);
-  padding: 15px;
+  padding: 15px 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  float: right;
 }
 
-#home {
+#home { 
   justify-content: center;
+  min-width: 100vw;
 }
 
 .flex-row {
@@ -157,8 +155,34 @@ section {
 .project-container {
   position: relative;
   text-align: center;
+  margin: 50px 20px;
+  width: 300px;
 }
 
+.project-container h5 {
+  font-size: 16px;
+}
+
+.project-container p {
+  font-size: 14px;
+}
+
+#about,
+#certifications,
+#projects,
+#contact {
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: fit-content;
+  max-width: 100vw;
+  min-width: fit-content;
+  margin-left: 100px;
+}
+
+#about h1 {
+  display: inline-flex;
+}
 
 #about img {
   margin: 10px;
@@ -179,6 +203,9 @@ section {
   text-align: left;
 }
 
+.project-container img {
+  width: 300px;
+}
 
 #projects img {
   max-width: 50%;
@@ -212,7 +239,7 @@ section {
   height: 100vh;
 } 
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
   color: #5c3f83;
 }
 
@@ -486,13 +513,13 @@ h1, h2 {
 
 .timeline {
   background-color: #5c3f83;
-  width: 70%;
-  display: flex;
+  width: calc(100vw - 500px);
+  max-width: 1000px;
+  display: inline-flex;
   height: 3px;
   align-items: center;
   justify-content: space-around;
   position: relative;
-  margin: 250px 0;
 }
 
 .timeline::after {

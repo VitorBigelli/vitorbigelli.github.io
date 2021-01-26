@@ -8,29 +8,32 @@
 
 .contact-list a {
     margin: 20px;
-    color: white;
+    color: #5c3f83;
 }
 
 .contact-list a:hover {
-    color: var(--secondary-color)
+    color: rgba(92, 63, 131, 0.7);
 }
 
 .mailing {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
+    margin-top: 20px;
     max-width: 700px;
 }
 
 .mailing input[type='text'], 
 .mailing textarea {
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid white;
+    background: white;
+    border: 1px solid #5c3f83;
+    margin: 5px 0;
+    width: 100%;
+    padding: 15px;
     height: 40px;
-    margin-bottom: 10px;
-    color: white;
+    color: #101010;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 :focus {
@@ -38,21 +41,22 @@
 }
 
 .mailing input[type='button'] {
-    width: 150px;
-    padding: 15px;
-    align-self: flex-end;
-    border: none;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid transparent;
     border-radius: 10px;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    background: linear-gradient(var(--primary-color), var(--secondary-color));
-    transition: background 0.5s ease-in-out;
+    background: #5c3f83;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .mailing input[type='button']:hover {
-    background: linear-gradient(var(--secondary-color), var(--primary-color))
+    background: white; 
+    color: #5c3f83;
+    border: 1px solid #5c3f83;
 }
 
 .message {
