@@ -23,9 +23,9 @@ function About () {
                     <br/><br/>
                     My focus changed when I started a graduation in Materials Engineer at UTFPR, guided for my mathematical passion and ease in the field. Inside the university, I developed two projects directed to teaching basic informatics and programming logic using Java.
                     <br/><br/>
-                    4 years ago I started to study programming again, this time focusing on front-end development.
+                    By the end of 2017 I started to study programming again, this time focusing on front-end development.
                     <br/><br/>
-                    Today, I work at Nindoo AI, as Full-Stack Developer and R&D Scientist with focus on delivering technologies to solve real world problems.     
+                    From 2019 to 2021 I worked at Nindoo AI, as Full-Stack Developer and R&D Scientist with focus on delivering technologies to solve real world problems. Today I'm a Software Engineer at Well Well, where we are developing a product to revolutionize the way that people see preventive medicine and their well-being.     
                     </p>
                 </Fade>
             </div>
