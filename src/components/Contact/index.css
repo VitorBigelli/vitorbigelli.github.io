@@ -8,11 +8,7 @@
 
 .contact-list a {
     margin: 20px;
-    color: white;
-}
-
-.contact-list a:hover {
-    color: var(--secondary-color)
+    color: var(--primary-color);
 }
 
 .mailing {

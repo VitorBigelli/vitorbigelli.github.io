@@ -61,7 +61,7 @@ function Skills () {
                             return (
                                 <li className={s.className}> 
                                     { s.icon() }
-                                    <span className='tooltip'> { s.name }</span>
+                                    <p className='tooltip'> { s.name }</p>
                                 </li>
                             )
                         })
@@ -77,7 +77,7 @@ function Skills () {
                             return (
                                 <li className={s.className}> 
                                     { s.icon() }
-                                    <span className='tooltip'> { s.name }</span>
+                                    <p className='tooltip'> { s.name }</p>
                                 </li>
                             )
                         })
@@ -95,7 +95,7 @@ function Skills () {
                         return (
                             <li className={s.className}> 
                                 { s.icon() }
-                                <span className='tooltip'> { s.name }</span>
+                                <p className='tooltip'> { s.name }</p>
                             </li>
                         )
                     })
@@ -112,7 +112,7 @@ function Skills () {
                             return (
                                 <li className={s.className}> 
                                     { s.icon() }
-                                    <span className='tooltip'> { s.name }</span>
+                                    <p className='tooltip'> { s.name }</p>
                                 </li>
                             )
                         })

@@ -17,12 +17,12 @@ function App() {
         <title>Vitor Bigelli | Full-Stack Web Developer | vitorbigelli.com </title>
         <meta name="description" content="Enthusiast of Artificial Intelligence and passionated about learning and teaching, I believe in technology as the tool to build a better world." />
       </Helmet>
-
-
-      <Sidebar />
-      <Hero />
+      <header>
+        <Hero />
+        <Sidebar />     
+      </header>
       <About />
-      <Skills />
+      {/* <Skills /> */}
       <Projects />
       <Certifications />
       <Contact />

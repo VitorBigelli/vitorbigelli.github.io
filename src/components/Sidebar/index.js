@@ -23,13 +23,13 @@ function Sidebar () {
     const [ isOpen, toggleMenu ] = useState(false)
 
     return (
-        <nav className={ isOpen ? 'gradient-background' : 'gradient-background hidden' } >
-            <Link to='home' smooth={true} spy={true} duration={500} > <IoIosHome /> <span className='tooltip'> Home </span> </Link>
-            <Link to='about' smooth={true} spy={true} duration={500} > <IoIosPerson />  <span className='tooltip'> About me </span>  </Link>
-            <Link to='skills' smooth={true} spy={true} duration={500} > <IoIosApps />  <span className='tooltip'> Skills </span>  </Link>
-            <Link to='projects' smooth={true} spy={true} duration={500} > <IoIosRocket />  <span className='tooltip'> Projects </span>  </Link>
-            <Link to='certifications' smooth={true} spy={true} duration={500} > <IoIosDocument />  <span className='tooltip'> Certifications </span>  </Link>
-            <Link to='contact' smooth={true} spy={true} duration={500} > <IoIosChatbubbles />  <span className='tooltip'> Contact </span>  </Link>
+        <nav>
+            {/* <Link to='home' smooth={true} spy={true} duration={500} > <IoIosHome /> <p className='tooltip'> Home </p> </Link> */}
+            <Link to='about' smooth={true} spy={true} duration={500} > <IoIosPerson />  <p className='tooltip'> About me </p>  </Link>
+            <Link to='skills' smooth={true} spy={true} duration={500} > <IoIosApps />  <p className='tooltip'> Skills </p>  </Link>
+            <Link to='projects' smooth={true} spy={true} duration={500} > <IoIosRocket />  <p className='tooltip'> Projects </p>  </Link>
+            <Link to='certifications' smooth={true} spy={true} duration={500} > <IoIosDocument />  <p className='tooltip'> Certifications </p>  </Link>
+            <Link to='contact' smooth={true} spy={true} duration={500} > <IoIosChatbubbles />  <p className='tooltip'> Contact </p>  </Link>
             <div onClick={() => toggleMenu(!isOpen)} className={ isOpen ? 'toggle-menu' : 'toggle-menu hidden'}>
                 <div/>
                 <div/>
