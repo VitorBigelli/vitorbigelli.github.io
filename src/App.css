@@ -12,6 +12,10 @@ p, div {
   color: var(--primary-color);
 }
 
+h2 {
+  font-size: 20px;
+}
+
 header {
   padding: 20px 0;
   background-color: transparent;
@@ -150,6 +154,7 @@ h1 {
 .project-container {
   position: relative;
   text-align: center;
+  padding: 20px 0;
 }
 
 
@@ -174,6 +179,7 @@ h1 {
 }
 
 
+
 #projects img, 
 #certifications img {
   max-width: 50%;
@@ -184,6 +190,7 @@ h1 {
 #projects p {
   width: 50%;
   min-width: 300px;
+  height: auto;
   margin: 40px auto;
 }
 
@@ -386,4 +393,72 @@ h1 {
 
 .align-items-start {
   align-items:flex-start;
+}
+
+.contact-list {
+  font-size: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact-list a {
+  margin: 20px;
+  color: var(--primary-color);
+}
+
+.mailing {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 700px;
+}
+
+.mailing input[type='text'], 
+.mailing textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  height: 40px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+:focus {
+  outline: none;
+}
+
+.mailing input[type='button'] {
+  width: 150px;
+  padding: 15px;
+  align-self: flex-end;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(var(--primary-color), var(--secondary-color));
+  transition: background 0.5s ease-in-out;
+}
+
+.mailing input[type='button']:hover {
+  background: linear-gradient(var(--secondary-color), var(--primary-color))
+}
+
+.message {
+  float: left;
+  width: 400px;
+  margin: 0;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.message img {
+  width: 100px;
 }

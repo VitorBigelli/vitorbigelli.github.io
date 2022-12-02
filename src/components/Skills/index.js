@@ -20,7 +20,6 @@ import {
 import { Icon } from '@iconify/react';
 import neo4jIcon from '@iconify/icons-simple-icons/neo4j';
 import rabbitmq from '@iconify/icons-simple-icons/rabbitmq';
-import Bounce from 'react-reveal/Bounce'
 
 const skills = {
     front: [
@@ -53,41 +52,36 @@ function Skills () {
     return (
         <section id='skills' >
             <h1> My Skills </h1> 
-            <h3> Front-end </h3>  
-            <Bounce left> 
-                <ul className='flex-row centralize'> 
-                    {
-                        skills.front.map( (s, i) => {
-                            return (
-                                <li className={s.className}> 
-                                    { s.icon() }
-                                    <p className='tooltip'> { s.name }</p>
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
-            </Bounce>
+            <h4> Front-end </h4>  
+            <ul className='flex-row centralize'> 
+                {
+                    skills.front.map( (s, i) => {
+                        return (
+                            <li className={s.className}> 
+                                { s.icon() }
+                                <p className='tooltip'> { s.name }</p>
+                            </li>
+                        )
+                    })
+                }
+            </ul>
 
-            <h3> Back-end </h3>
-            <Bounce right>
-                <ul className='flex-row centralize'> 
-                    {
-                        skills.back.map( (s, i) => {
-                            return (
-                                <li className={s.className}> 
-                                    { s.icon() }
-                                    <p className='tooltip'> { s.name }</p>
-                                </li>
-                            )
-                        })
-                    }
-                
-                </ul>
-            </Bounce>
+            <h4> Back-end </h4>
+            <ul className='flex-row centralize'> 
+                {
+                    skills.back.map( (s, i) => {
+                        return (
+                            <li className={s.className}> 
+                                { s.icon() }
+                                <p className='tooltip'> { s.name }</p>
+                            </li>
+                        )
+                    })
+                }
             
-            <h3> Databases </h3>
-            <Bounce left>
+            </ul>
+            
+            <h4> Databases </h4>
             <ul className='flex-row  centralize'>
                 
                 {
@@ -101,25 +95,22 @@ function Skills () {
                     })
                 }
             </ul>
-            </Bounce>
 
-            <h3> DevOps, Deployment & Cloud </h3>     
-            <Bounce right>
-                <ul className='flex-row centralize'> 
-                    
-                    {
-                        skills.devops.map( (s, i) => {
-                            return (
-                                <li className={s.className}> 
-                                    { s.icon() }
-                                    <p className='tooltip'> { s.name }</p>
-                                </li>
-                            )
-                        })
-                    }
+            <h4> DevOps, Deployment & Cloud </h4>     
+            <ul className='flex-row centralize'> 
                 
-                </ul>
-            </Bounce>
+                {
+                    skills.devops.map( (s, i) => {
+                        return (
+                            <li className={s.className}> 
+                                { s.icon() }
+                                <p className='tooltip'> { s.name }</p>
+                            </li>
+                        )
+                    })
+                }
+            
+            </ul>
         </section>
     )
 }

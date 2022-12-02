@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaLinkedin, FaTwitter, FaGithub, FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import './index.css'
 
 const contact_list = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/in/vitor-bigelli-559380150/', icon: () => <FaLinkedin /> }, 
